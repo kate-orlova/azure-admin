@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "policyId": "default",
+    "sourceAccount": "/subscriptions/<subscriptionId>/resourceGroups/<resource-group>/providers/Microsoft.Storage/storageAccounts/<storage-account>",
+    "destinationAccount": "/subscriptions/<subscriptionId>/resourceGroups/<resource-group>/providers/Microsoft.Storage/storageAccounts/<storage-account>",
+    "rules": [
+      {
+        "ruleId": "",
+        "sourceContainer": "<source-container>",
+        "destinationContainer": "<destination-container>",
+        "filters": {
+          "prefixMatch": [
+            "b"
+          ],
+          "minCreationTime": "2021-08-028T00:00:00Z"
+        }
+      }
+    ]
+  }
+}
